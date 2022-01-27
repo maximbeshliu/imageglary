@@ -1,0 +1,38 @@
+.parentBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentBtn button{
+    background-color: white;
+    color: blue;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    border-radius: 40%;
+    border: 1px solid blue;
+}
+
+.parentBtn button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.parentImg{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.parentImg img{
+    margin: 0.2rem;
+    cursor: zoom-in;
+}
+
+
+
